@@ -37,10 +37,6 @@ public class validador {
 
         System.out.println("\nSuma total final: " + sum);
 
-        if (sum % 10 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return sum % 10 == 0;
     }
 }

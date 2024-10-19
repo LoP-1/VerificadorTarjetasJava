@@ -10,7 +10,7 @@ public class Main {
 
         validador val = new validador();
 
-        if(val.validarTarjeta(Tarjeta) == true){
+        if(val.validarTarjeta(Tarjeta)){
             System.out.println("La tarjeta es valida");
         }else{
             System.out.println("la tarjeta ingresada no es valida");
